@@ -1,0 +1,24 @@
+.hobbies{
+    margin-top: 22px;
+
+    .hobbies_title{
+        font-weight: 500;
+        font-size: 22px;
+    }
+    .hobbies__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 18px;
+        li{
+            display: block;
+            padding: 0.5rem 0;
+            width: calc(50% - 5px);
+            span{
+                font-family: 'Open Sans', sans-serif;
+
+            }
+        }
+    }
+}

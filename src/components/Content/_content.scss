@@ -1,0 +1,22 @@
+.content{
+    background-color: #fff;
+    width: 72%;
+    height: 100%;
+    // margin: 20px;
+
+    @media print {
+        width: 57%;
+        height: 100%;
+        padding-right: 90px;
+    }
+    .content_inside{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 30px;
+        @media print {
+            width: 100%;
+           
+
+        }
+    }
+}   

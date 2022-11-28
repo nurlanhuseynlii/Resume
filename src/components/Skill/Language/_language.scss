@@ -1,0 +1,26 @@
+.skill_block{
+
+    margin-top: 22px;
+    .language__title{
+        font-weight: 500;
+        font-size: 22px;
+    }
+    .lang-skills{
+        
+        margin-top: 18px;
+     
+       li{
+        display: flex;
+        justify-content: space-between;
+        line-height: 38px;
+        width: calc(60% + 6rem);
+        span{
+            font-family: 'Open Sans', sans-serif;
+             
+        }
+        .lang-level{
+            color: rgba($color: gray, $alpha: .5);
+        }
+       }
+    }
+}

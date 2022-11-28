@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+
+
+    
+}
+.resume{
+    width: 100vw;
+    height: 180vh;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+
+    @media print {
+        height: 100vh;
+    }
+}
+
+
+ol,
+ul {
+	list-style: none;
+}
+
+
+
+

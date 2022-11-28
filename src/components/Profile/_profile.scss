@@ -1,0 +1,31 @@
+.profile{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: #fff;
+        padding: 5px;
+        border: 2px solid #1ABC9C;
+        object-fit: cover;
+        
+    }
+    .profile__name{
+    margin-top: 15px;   
+    font-weight: 500;
+    font-size: 20px;
+    }
+    .profile__position{
+        margin-top: 5px;
+        color: #a7a7a7;
+        font-size: 14px;
+        
+        font-family: 'Ubuntu', sans-serif;
+    }
+}
+

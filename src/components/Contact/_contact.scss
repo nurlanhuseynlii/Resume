@@ -1,0 +1,53 @@
+    ul{
+        a{
+            text-decoration: none;
+        }
+    }
+.avatar{
+    display: flex;
+    margin-top: 14px;
+    
+    
+    .icons{
+        width: 30px;
+        height: 30px;
+        border-radius:50% ;
+        background-color: #1ABC9C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+    .contact_details{
+        
+        margin-left: 10px;
+        font-size: 14px;
+        
+       color: black;
+       h4{
+        font-weight: 200;
+        font-size: 14px;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing: 1px;
+        
+       }
+       span{
+        color: #1ABC9C;
+        font-size: 12px;
+       }
+       
+       
+    }
+}
+
+.contacts{
+    margin-top: 22px;
+}
+
+.contact{
+    .contact_info{
+        font-weight: 500;
+        font-size: 22px;
+
+    }
+}
