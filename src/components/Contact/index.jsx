@@ -1,5 +1,7 @@
 import React from "react";
 
+
+
 const Contact = () => {
   const contacts = [
     {
@@ -33,6 +35,15 @@ const Contact = () => {
       link: "#",
       target: "_self",
     },
+
+    {
+      icon: "fa-regular fa-newspaper",
+      title: "Medium",
+      value: "@nurlanhuseynlii",
+      link: "https://medium.com/@nurlannhuseynlii",
+      target: "_blank",
+    }
+    
   ];
 
   return (

@@ -5,19 +5,15 @@ const Development = () => {
   const skills = [
 
  
-
+        'Python',
         'JavaScript',
         'React',
-        'Redux',
         'SASS/SCSS',
         'HTML5',
         'CSS3',
         'GIT',
-        'Webpack',
         'Bootsrap',
         'Figma',
-        'jQuery',
-        'React-API',
 
     
 

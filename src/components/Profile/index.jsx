@@ -1,5 +1,5 @@
 import React from 'react'
-import profile_photo  from '../../assets/images/foto.jpeg'
+import profile_photo  from '../../assets/images/main.jpeg'
 const Profile = () => {
   return (
     <div className='profile'>
@@ -7,7 +7,7 @@ const Profile = () => {
             <img src={profile_photo} alt="Nurlan" />
         </div>
         <div className="profile__name">Nurlan Huseynli</div>
-        <div className="profile__position">Front-End Developer</div>
+        <div className="profile__position">Artificial Intelligence</div>
     </div>
   )
 }

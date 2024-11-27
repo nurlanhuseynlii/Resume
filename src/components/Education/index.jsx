@@ -5,6 +5,16 @@ const Education = () => {
 
     const education = [
        
+
+        {
+            date:"2020 - 2024",
+            title:"Journalism",
+            subtitle:"Baku Slavic University",
+            content: "Bachelor's degree",
+        },
+
+
+
         {
             date:"2022",
             title:"Front-End Developing",
@@ -12,13 +22,15 @@ const Education = () => {
         },
       
       
-        {
-            date:"2020 - Current",
-            title:"Journalism",
-            subtitle:"Baku Slavic University",
-            content: "Bachelor's degree",
-        },
+     
 
+
+
+        {
+            date:"2024",
+            title:"Artificial Intelligence",
+            subtitle:"Developia",
+        }
         
 
 

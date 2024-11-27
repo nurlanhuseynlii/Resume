@@ -16,7 +16,7 @@ const Language = () => {
 
         {
             title: 'English',
-             level: 'Elementary'
+             level: 'Pre-intermediate'
         },
 
         {

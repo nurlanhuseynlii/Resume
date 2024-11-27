@@ -6,7 +6,7 @@ const Experience = () => {
     const experience = [
        
         {
-            date:"Oct 2022 - Present",
+            date:"Oct 2022 - Feb 2023",
             title:"Front-End Developer (internship) ",
             subtitle:"Azerbaijan Artificial Intelligence Lab",
         },
