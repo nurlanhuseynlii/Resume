@@ -37,13 +37,13 @@ const Contact = () => {
     },
 
     {
-      icon: "fa-regular fa-newspaper",
+      icon: "fa-brands fa-medium",
       title: "Medium",
       value: "@nurlanhuseynlii",
       link: "https://medium.com/@nurlannhuseynlii",
       target: "_blank",
     }
-    
+
   ];
 
   return (
@@ -52,16 +52,16 @@ const Contact = () => {
       <ul className="contacts">
         {contacts.map((info, index) => (
           <li key={index}>
-            <a href={info.link}  target={info.target} rel="noopener noreferrer" >
+            <a href={info.link} target={info.target} rel="noopener noreferrer" >
               <div className="avatar">
                 <div className="icons">
-                <i className={info.icon}></i>
+                  <i className={info.icon}></i>
                 </div>
-              
-              <div className="contact_details">
-                <h4>{info.value}</h4>
-                <span>{info.title}</span>
-              </div>
+
+                <div className="contact_details">
+                  <h4>{info.value}</h4>
+                  <span>{info.title}</span>
+                </div>
               </div>
             </a>
           </li>
